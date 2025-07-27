@@ -1,4 +1,4 @@
-fetch("../../molly/components/nav.html")
+fetch("./components/nav.html")
     .then(response => response.text())
     .then(data => {
         let mobil = document.querySelector("#mobil");
