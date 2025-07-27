@@ -19,4 +19,4 @@ footer {
     color: var(--azul-opaco);
 }
 .footer-descripcion { text-align: justify; padding-top: 10px; padding-bottom: 20px; }
-.creditos { text-align: center; font-size: 11px !important; }
+.creditos { text-align: center; font-size: 11px; }
