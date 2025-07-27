@@ -1,0 +1,12 @@
+#mobil {
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.lista {
+    list-style: inside;
+    padding: 15px;
+    padding-left: 20px;
+}
+.lista li { padding: 2px; font-size: 13px; }
+.warnning { color: #ff0000; }

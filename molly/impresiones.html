@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        <title>Molly - Impresiones</title>
+
+        <!-- recursos -->
+        <link href="../css/recursos/response.css" rel="stylesheet">
+        <link href="../css/recursos/colores.css" rel="stylesheet">
+        <link href="../css/recursos/fonts.css" rel="stylesheet">
+        <link href="../css/recursos/animaitons.css" rel="stylesheet">
+        <link href="../css/recursos/carrusel.css" rel="stylesheet">
+
+        <!-- componentes -->
+        <link href="../css/components/preload.css" rel="stylesheet">
+        <link href="../css/components/nav.css" rel="stylesheet">
+        <link href="../css/components/footer.css" rel="stylesheet">
+
+        <!-- html -->
+        <link href="../css/encabezado.css" rel="stylesheet">
+
+    </head>
+    <body id="overflow-preload">
+        <!-- componentes -->
+        <script src="../js/components/preload.js"></script>
+        <script src="../js/components/nav.js"></script>
+        <script src="../js/components/footer.js"></script>
+
+        <div id="preload"><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></div>
+        <div id="pc"><img src="../assets/warnning.png" alt="warnning"></div>
+        <div id="mobil">
+            <p>En nuestro servicio de impresiones ofrecemos:</p>
+            <ul class="lista">
+                <li>Blanco y Negro</li>
+                <li>Color</li>
+            </ul>
+            <p class="warnning">Atención: No se hacen engargolados; las impresiones son todos los archivos digitales mandados por WhatsApp</p>
+            
+            <!-- Carrusel de imagenes -->
+            <div id="contenedor-contenedor-carrusel">
+                <div class="contenedor-carrusel-shadow cshadow-uno"></div>
+                <div class="contenedor-carrusel-shadow cshadow-dos"></div>
+                <div id="contenedor-carrusel">
+                    <div class="carrusel">
+
+                        <!-- Blanco y Negro -->
+                        <div class="slide">
+                            <img src="../assets/impresion_bn.png" alt="BN" />
+                            <div class="caption">
+                                <p class="subtitle">Blanco y Negro</p>
+                                <ul class="descripcion">
+                                    <li>Tipo de impresión: <span>Blanco y Negro</span></li>
+                                    <li>Tipo de hoja: <span>Tamaño Carta</span></li>
+                                    <li>Cantidad: <span>1 pz</span></li>
+                                    <li>Precio por hoja: <span>$2 MXN</span></li>
+                                </ul>
+                                <p class="nota">Desliza de derecha a izquierda</p>
+                            </div>
+                        </div>
+
+                        <!-- Color -->
+                        <div class="slide">
+                            <img src="../assets/impresion_color.png" alt="COLOR" />
+                            <div class="caption">
+                                <p class="subtitle">Color</p>
+                                <ul class="descripcion">
+                                    <li>Tipo de impresión: <span>Color</span></li>
+                                    <li>Tipo de hoja: <span>Tamaño Carta</span></li>
+                                    <li>Cantidad: <span>1 pz</span></li>
+                                    <li>Precio por hoja: <span>$7 MXN</span></li>
+                                </ul>
+                                <p class="nota">Desliza de derecha a izquierda</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer></footer>
+
+        <!-- recursos -->
+        <script src="../js/recursos/carrusel.js"></script>
+    </body>
+</html>

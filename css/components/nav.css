@@ -1,0 +1,116 @@
+nav {
+    background: var(--color-nav-fondo);
+    top: 0px;
+    z-index: 95;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+}
+nav img {
+    width: 60px;
+    padding: 5px;
+    padding-left: 10px;
+}
+nav button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: none;
+    border: none;
+    right: 20px;
+    top: 15px;
+}
+nav button div:nth-child(1){
+    width: 80%;
+    height: 2px;
+    background: var(--color-boton-nav);
+    border-radius: 100px;
+    position: absolute;
+    left: 4px;
+    top: 50%;
+}
+nav button div:nth-child(2){
+    width: 80%;
+    height: 2px;
+    background: var(--color-boton-nav);
+    border-radius: 100px;
+    position: absolute;
+    left: 4px;
+    top: 25%;
+}
+nav button div:nth-child(3){
+    width: 80%;
+    height: 2px;
+    background: var(--color-boton-nav);
+    border-radius: 100px;
+    position: absolute;
+    left: 4px;
+    top: 75%;
+}
+.menu {
+    width: 50vw;
+    height: 100vh;
+    max-width: 250px;
+    background: var(--color-menu-fondo);
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    display: none;
+    color: black;
+    justify-content: center;
+    overflow-y: scroll;
+    z-index: 96;
+}
+.categoria {
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    font-size: 1.15rem;
+}
+.categoria::before {
+    content: "";
+    width: 80%;
+    height: 1px;
+    background: #00000056;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul a {
+    text-decoration: none;
+}
+ul li {
+    padding: 10px;
+    padding-left: 20px;
+    color: #00000090;
+}
+.contacto {
+    margin-top: 50px;
+    padding: 10px;
+}
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num img {
+    width: 25px;
+    height: auto;
+}
+.abrirwhats {
+    text-align: center;
+}
+.abrirwhats button {
+    width: 80%;
+    background: rgb(0, 170, 0);
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 150px;
+}

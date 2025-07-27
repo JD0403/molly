@@ -1,0 +1,13 @@
+:root {
+    --color-principal: #fdbcf5ce;
+    --color-secundario: #ffffff;
+    --color-boton-nav: #000000;
+    --color-nav-fondo: #ffffff;
+    --color-menu-fondo: #fffffff5;
+    --color-menu-selector: #fdbcf5ce;
+    --color-titulo-fondo: #fdbcf5ce; /* #faacf0 */
+    --color-copias-info-fondo: #fdbcf5ce;
+    --gris-opaco: #0000008c;
+    --azul-opaco: #0000ff9c;
+    --rosa: #fdbcf5;
+}

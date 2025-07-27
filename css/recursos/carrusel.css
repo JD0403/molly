@@ -1,0 +1,88 @@
+#contenedor-contenedor-carrusel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.contenedor-carrusel-shadow {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #999, #666);
+    border-radius: 30px;
+    z-index: 0;
+    filter: blur(1px);
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.cshadow-uno { transform: rotate(4deg) translateY(20px) translateX(-10px); }
+.cshadow-dos { transform: rotate(-3deg) translateY(35px) translateX(10px); }
+#contenedor-carrusel {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 30px;
+    z-index: 2;
+}
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slide {
+  position: relative;
+  width: 100%;
+  height: 435px;
+  flex-shrink: 0;
+  background: gray;
+}
+.slide img {
+  width: 100%;
+  display: block;
+}
+.caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 40%; /* Puedes ajustar este valor para que ocupe más o menos */
+  overflow: hidden;
+}
+.subtitle {
+    padding: 5px;
+    font-size: 1.05rem;
+    color: #ffffff;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.subtitle::before {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 90%;
+    height: 3px;
+    bottom: 2px;
+}
+.descripcion { list-style: none; padding-left: 20px; }
+.descripcion li {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 0.85rem;
+}
+.descripcion li span { color: lime; }
+.nota {
+    text-align: center;
+    color: #b4b4b4;
+    text-align: justify;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}

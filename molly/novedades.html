@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        <title>Molly - Novedades y Regalos</title>
+
+        <!-- recursos -->
+        <link href="../css/recursos/response.css" rel="stylesheet">
+        <link href="../css/recursos/colores.css" rel="stylesheet">
+        <link href="../css/recursos/fonts.css" rel="stylesheet">
+        <link href="../css/recursos/animaitons.css" rel="stylesheet">
+
+        <!-- componentes -->
+        <link href="../css/components/preload.css" rel="stylesheet">
+        <link href="../css/components/nav.css" rel="stylesheet">
+        <link href="../css/components/footer.css" rel="stylesheet">
+
+        <!-- html -->
+        <link href="../css/novedades.css" rel="stylesheet">
+    </head>
+    <body id="overflow-preload">
+        <!-- componentes -->
+        <script src="../js/components/preload.js"></script>
+        <script src="../js/components/nav.js"></script>
+        <script src="../js/components/footer.js"></script>
+        
+        <div id="preload"><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></div>
+        <div id="pc"><img src="../assets/warnning.png" alt="warnning"></div>
+        <div id="mobil">
+            
+            <p>Bienvenid@ a nuestra tienda de regalos y novedades!!</p>
+            <br/>
+            <p>Cada día estamos agregando nuevos productos en venta para diferentes necesidades. <br/><br/>¡Para comprar un producto solo basta con dar clic al botón de comprar y automáticamente serás redirigido a nuestro número de contacto donde podremos darle seguimiento a tu pedido!</p>
+
+            <div class="contenedor-productos">
+                <!-- fila de productos -->
+                <div class="row">
+                    <!-- producto 1 -->
+                    <div class="col">
+                        <img src="../assets/llaveros.jpg" alt="CFE">
+                        <div class="texto-producto"><button class="info-producto" onclick="llaveros()">Más Información</button></div>
+                    </div>
+                    <!-- producto 2 -->
+                    <div class="col">
+                        <img src="../assets/libros_colorear.jpg" alt="CFE">
+                        <div class="texto-producto"><button class="info-producto" onclick="librosColorear()">Más Información</button></div>
+                    </div>
+                </div>
+                <!-- fin de la fila de productos -->
+                <!-- fila de productos -->
+                <div class="row">
+                    <!-- producto 1 -->
+                    <div class="col">
+                        <img src="../assets/bolsa_regalo.jpg" alt="CFE">
+                        <div class="texto-producto"><button class="info-producto" onclick="bolsaRegalo()">Más Información</button></div>
+                    </div>
+                    <!-- producto 2
+                    <div class="col">
+                        <img src="../assets/inexistente.png" alt="CFE">
+                        <div class="texto-producto"><button class="info-producto" onclick="vacio()">Más Información</button></div>
+                    </div> -->
+                </div>
+                <!-- fin de la fila de productos -->
+            </div>
+
+            <!-- Menu (Más informacino) de los productos -->
+            <div class="menu-info-producto">
+                <div class="menu-close"><button onclick="menuClose()"><div></div><div></div></button></div>
+                <p class="name-producto"></p>
+                <div class="descripcion-producto">
+                    <p class="detalles"></p>
+                    <img id="imagen-alt" src="../assets/inexistente.png" alt="IMG">
+                </div>
+                <button class="comprar">COMPRAR</button>
+            </div>
+            <!-- fin del menu de los productos -->
+            
+        </div>
+        <footer></footer>
+
+        <!-- recursos -->
+        <script src="../js/novedades.js"></script>
+    </body>
+</html>

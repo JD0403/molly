@@ -1,0 +1,22 @@
+footer {
+    width: 100%;
+    height: 200px;
+    background: var(--color-principal);
+    margin-top: 50px;
+    overflow: hidden;
+}
+#footer-div {
+    padding: 20px;
+    color: var(--gris-opaco);
+}
+#footer-div p {
+    font-size: 13px;
+}
+#footer-div a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--azul-opaco);
+}
+.footer-descripcion { text-align: justify; padding-top: 10px; padding-bottom: 20px; }
+.creditos { text-align: center; font-size: 11px !important; }

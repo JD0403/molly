@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        <title>Molly - Tramites</title>
+
+        <!-- recursos -->
+        <link href="../css/recursos/response.css" rel="stylesheet">
+        <link href="../css/recursos/colores.css" rel="stylesheet">
+        <link href="../css/recursos/fonts.css" rel="stylesheet">
+        <link href="../css/recursos/animaitons.css" rel="stylesheet">
+        <link href="../css/recursos/carrusel.css" rel="stylesheet">
+
+        <!-- componentes -->
+        <link href="../css/components/preload.css" rel="stylesheet">
+        <link href="../css/components/nav.css" rel="stylesheet">
+        <link href="../css/components/footer.css" rel="stylesheet">
+
+        <!-- html -->
+        <link href="../css/encabezado.css" rel="stylesheet">
+
+    </head>
+    <body id="overflow-preload">
+        <!-- componentes -->
+        <script src="../js/components/preload.js"></script>
+        <script src="../js/components/nav.js"></script>
+        <script src="../js/components/footer.js"></script>
+
+        <div id="preload"><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></div>
+        <div id="pc"><img src="../assets/warnning.png" alt="warnning"></div>
+        <div id="mobil">
+            <p>En nuestro servicio de Tramites ofrecemos:</p>
+            <ul class="lista">
+                <li>Acta de Nacimiento</li>
+                <li>Curp</li>
+                <li>Recibo CFE</li>
+            </ul>
+            <p class="warnning">Atención: No sacamos documentos oficiales de terceras personas, la persona debe ser representante o tutor del documento a solicitar.</p>
+            
+            <!-- Carrusel de imagenes -->
+            <div id="contenedor-contenedor-carrusel">
+                <div class="contenedor-carrusel-shadow cshadow-uno"></div>
+                <div class="contenedor-carrusel-shadow cshadow-dos"></div>
+                <div id="contenedor-carrusel">
+                    <div class="carrusel">
+                        <!-- Acta de Nacimiento -->
+                        <div class="slide">
+                            <img src="../assets/acta_nacimiento.png" alt="ACTA DE NACIMIENTO" />
+                            <div class="caption">
+                                <p class="subtitle">Acta de Nacimiento</p>
+                                <ul class="descripcion">
+                                    <li>Tipo de impresión: <span>Color</span></li>
+                                    <li>Cantidad: <span>1 pz</span></li>
+                                    <li>Precio por hoja: <span>$180 MXN</span></li>
+                                </ul>
+                                <p class="nota">Desliza de derecha a izquierda</p>
+                            </div>
+                        </div>
+                        <!-- Curp -->
+                        <div class="slide">
+                            <img src="../assets/curp.png" alt="CURP" />
+                            <div class="caption">
+                                <p class="subtitle">Curp</p>
+                                <ul class="descripcion">
+                                    <li>Tipo de impresión: <span>Color</span></li>
+                                    <li>Cantidad: <span>1 pz</span></li>
+                                    <li>Precio por hoja: <span>$10 MXN</span></li>
+                                </ul>
+                                <p class="nota">Desliza de derecha a izquierda</p>
+                            </div>
+                        </div>
+                        <!-- Recibo CFE -->
+                        <div class="slide">
+                            <img src="../assets/cfe.png" alt="CFE" />
+                            <div class="caption">
+                                <p class="subtitle">Recibo de luz CFE</p>
+                                <ul class="descripcion">
+                                    <li>Tipo de impresión: <span>Color</span></li>
+                                    <li>Cantidad: <span>1 pz</span></li>
+                                    <li>Precio por hoja: <span>$10 MXN</span></li>
+                                </ul>
+                                <p class="nota">Desliza de derecha a izquierda</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer></footer>
+
+        <!-- recursos -->
+        <script src="../js/recursos/carrusel.js"></script>
+    </body>
+</html>

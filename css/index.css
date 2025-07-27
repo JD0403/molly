@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    user-select: none;
+}
+body {
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 40%;
+    height: auto;
+    max-width: 300px;
+}
