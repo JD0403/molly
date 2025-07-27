@@ -1,4 +1,4 @@
-fetch("molly/components/footer.html")
+fetch("./components/footer.html")
     .then(response => response.text())
     .then(data => {
         let footer = document.querySelector("footer");
